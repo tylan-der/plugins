@@ -41,16 +41,16 @@
 # AfkPlaceholder.Enabled: Enable the %afk placeholder. You can use it to display AFK players on tablist. (Requires Essentials or Purpur).
 # AfkPlaceholder.format: The format of the afk placeholder.
 
-check-for-updates: true
-enable-bstats: true
+check-for-updates: false
+enable-bstats: false
 bungeecord: false
 cross_server_timeout: 3
-message-format: '&f[%ultimateteams_teamPrefix%&f] %displayname: %message'
-global-message-format: '&9[%world] %prefix%displayname%suffix: &e%message'
+message-format: "&f[%ultimateteams_teamPrefix%&f] %displayname: %message"
+global-message-format: "&9[%world] %prefix%displayname%suffix: &e%message"
 multi-prefixes: false
 multi-suffixes: false
 ranged-mode: false
-ranged-prefix: '!'
+ranged-prefix: "!"
 show-no-players-near: true
 chat-range: 100
 logChat: false
@@ -58,31 +58,31 @@ debug: false
 EventPriority: LOWEST
 Locale: en-EN
 Ads:
-  Enabled: true
+  Enabled: false
   Bypass:
-  - 127.0.0.1
-  - my-domain.com
+    - 127.0.0.1
+    - my-domain.com
   Log: true
   SmartManager: true
   SmartConfig:
     DomainEndings:
-    - com
-    - net
-    - org
-    - de
-    - icu
-    - uk
-    - ru
-    - me
-    - info
-    - top
-    - xyz
-    - tk
-    - cn
-    - ga
-    - cf
-    - nl
-    - eu
+      - com
+      - net
+      - org
+      - de
+      - icu
+      - uk
+      - ru
+      - me
+      - info
+      - top
+      - xyz
+      - tk
+      - cn
+      - ga
+      - cf
+      - nl
+      - eu
     Multiplier: 4
     UnMultiplier: 1
   ReplaceCommas: false
@@ -92,18 +92,22 @@ Ads:
     MaxLinkLength: 10
 AntiSpam:
   Seconds: 5
-  Enable: true
+  Enable: false
 BlockedWords:
-- shit
-- '@everyone'
+  - fag
+  - faggot
+  - nig
+  - nigger
+  - nigga
+  - nig
 Tablist:
-  Change: true
-  format: '%prefix%player%suffix'
+  Change: false
+  format: "%prefix%player%suffix"
 Messages:
   JoinAndQuit:
     Enabled: false
 colors:
-  $g: '#00ff00'
+  $g: "#00ff00"
 AfkPlaceholder:
   Enabled: false
-  format: '&r[&7AFK&r] '
+  format: "&r[&7AFK&r] "
